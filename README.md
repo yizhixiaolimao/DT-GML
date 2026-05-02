@@ -137,56 +137,75 @@ python main.py
   The best results are shown in <b>bold</b>, and the second-best results are <u>underlined</u>.
 </p>
 
-<h2 style="color:blue;">Ablation Experiment</h2>
+<h2 style="color:blue;">Progression Prediction</h2>
+
+<p>
+  Comparison of DT-SMF against models on the progression prediction task.
+  The best results are shown in <b>bold</b>, and the second-best results are <u>underlined</u>.
+</p>
+
 <table>
   <tr>
-    <th rowspan="2">Method</th>
-    <th colspan="6" style="text-align:center;">AD vs CN</th>
-    <th colspan="6" style="text-align:center;">LMCI vs EMCI</th>
+    <th rowspan="2">Models</th>
+    <th rowspan="2">MRI</th>
+    <th rowspan="2">TAB</th>
+    <th colspan="6" style="text-align:center;">Short term Evaluation Metrics</th>
   </tr>
   <tr>
-    <th>Acc</th>
-    <th>F1</th>
-    <th>Kappa</th>
-    <th>Sen</th>
-    <th>Prec</th>
-    <th>Mcc</th>
-    <th>Acc</th>
-    <th>F1</th>
-    <th>Kappa</th>
-    <th>Sen</th>
-    <th>Prec</th>
-    <th>Mcc</th>
+    <th>Acc ↑</th>
+    <th>F1 ↑</th>
+    <th>Sen ↑</th>
+    <th>Prec ↑</th>
+    <th>MCC ↑</th>
+    <th>Kappa ↑</th>
   </tr>
+
   <tr>
-    <td>(w/o PET)
-    </td><td>76.25</td><td>75.79</td><td>51.65</td><td>69.44</td><td>75.76</td><td>51.81</td>
-    <td>77.42</td><td>75.44</td><td>51.67</td><td>58.46</td><td>82.61</td><td>53.55</td>
+    <td>CNN-TLSTM</td>
+    <td>✓</td>
+    <td>—</td>
+    <td>71.15</td>
+    <td>64.94</td>
+    <td>63.00</td>
+    <td>67.00</td>
+    <td>39.20</td>
+    <td>38.10</td>
   </tr>
+
   <tr>
-    <td>(w/o MRI)</td>
-    <td>86.25</td><td>85.99</td><td>72.01</td><td>80.56</td><td>87.88</td><td>72.22</td>
-    <td>78.71</td><td>77.50</td><td>55.23</td><td>66.15</td><td>79.63</td><td>55.85</td>
+    <td>Multi-ERMHA</td>
+    <td>✓</td>
+    <td>—</td>
+    <td>71.15</td>
+    <td>60.17</td>
+    <td>56.00</td>
+    <td>65.00</td>
+    <td>30.10</td>
+    <td>28.70</td>
   </tr>
+
   <tr>
-    <td>(w/o MDIF)</td>
-    <td>70.00</td><td>69.70</td><td>39.39</td><td>66.67</td><td>66.67</td><td>39.39</td>
-    <td>68.39</td><td>62.81</td><td>29.84</td><td>35.38</td><td>76.67</td><td>34.48</td>
+    <td>Ours</td>
+    <td>✓</td>
+    <td>—</td>
+    <td><u>82.75</u></td>
+    <td><u>78.47</u></td>
+    <td><u>77.00</u></td>
+    <td><u>80.00</u></td>
+    <td><u>61.20</u></td>
+    <td><u>59.80</u></td>
   </tr>
-  <tr>
-    <td>(w/o DyT)</td>
-    <td>85.00</td><td>84.38</td><td>69.07</td><td>72.22</td><td><b>92.86</td><td>70.59</td>
-    <td>77.42</td><td>76.13</td><td>52.52</td><td>64.62</td><td>77.78</td><td>53.11</td>
-  </tr>
-  <tr>
-    <td>(w/o GMHSA)</td>
-    <td>90.00</td><td>89.84</td><td>79.70</td><td>86.11</td><td>91.18</td><td>79.80</td>
-    <td>80.65</td><td>78.69</td><td>58.30</td><td>60.00</td><td><b>90.70</td><td>61.23</td>
-  </tr>
+
   <tr>
     <td><b>Ours</b></td>
-    <td><b>92.50</b></td><td><b>92.42</b></td><td><b>84.85</b></td><td><b>91.67</b></td><td>91.67</b></td><td><b>84.85</b></td>
-    <td><b>81.29</b></td><td><b>80.09</b></td><td><b>60.48</b></td><td><b>67.69</b></td><td>84.61</b></td><td><b>61.46</b></td>
+    <td>✓</td>
+    <td>✓</td>
+    <td><b>94.12</b></td>
+    <td><b>92.50</b></td>
+    <td><b>93.00</b></td>
+    <td><b>92.00</b></td>
+    <td><b>88.90</b></td>
+    <td><b>87.60</b></td>
   </tr>
 </table>
 
