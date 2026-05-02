@@ -59,7 +59,7 @@ python main.py
 ---
 
 ## 📊 Results
-<h2 style="color:blue;">Overall Evaluation Metrics</h2>
+<h2 style="color:blue;">Overall Evaluation Metrics of Diagnosis</h2>
 
 <table>
   <tr>
@@ -134,14 +134,14 @@ python main.py
 </table>
 
 <p>
-  The best results are shown in <b>bold</b>, and the second-best results are <u>underlined</u>.
+  The best results are shown in <b>bold</b>.
 </p>
 
 <h2 style="color:blue;">Ablation Study</h2>
 
 <p>
   Overall ablation study results of DT-SMF on ADNI.
-  The best results are shown in <b>bold</b>, and the second-best results are <u>underlined</u>.
+  The best results are shown in <b>bold</b>.
 </p>
 
 <table>
@@ -233,7 +233,7 @@ python main.py
 
 <p>
   Comparison of DT-SMF against models on the progression prediction task.
-  The best results are shown in <b>bold</b>, and the second-best results are <u>underlined</u>.
+  The best results are shown in <b>bold</b>.
 </p>
 
 <table>
