@@ -21,7 +21,6 @@
 <p align="center">
   <img src="img/exp.png" alt="Model Structure" width="1000"/>
 </p>
----
 
 ## 🧠 Interpretability
 
