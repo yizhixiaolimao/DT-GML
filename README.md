@@ -9,11 +9,16 @@
 ---
 
 ## 💡 Primary Contribution
-To further enhance diagnostic accuracy and strengthen the effectiveness of intermediate-to-late multimodal fusion, we propose MAG-ADNet (Modality-Adversarial-Gated Network for AD). This is a novel method which not only optimizes the fusion strategy but also achieves efficient extraction of discriminative information.Our key contributions are summarized as follows:
-1. 🌊The MAG-ADNet architecture achieves accurate diagnosis with dual modalities by leveraging two modality-specific ResNet-50 encoders together with the MDIF module. This design adversarially learns both modality-specific and fused representations.
-2. 🌊We introduce Gated Multi-Head Self Attention (GMHSA) to enhance information flow across attention heads and strengthen cross-modal interactions.
-3. 🌊We adopt DyT to enhance representation learning with a learnable, smoothly adjustable activation curve, improving robustness to distribution shifts and preserving fine-grained multimodal cues.
-4. 🌊Extensive experiments on both the AD vs CN and LMCI vs EMCI datasets demonstrate superior performance of MAG-ADNet, achieving state-of-the-art results on most metrics.
+- **🧬 Dynamic multimodal framework:** We propose **DT-SMF** for multimodal early Alzheimer's disease analysis using structural MRI and clinical scale information.
+
+- **🩺 SMC-oriented diagnosis:** DT-SMF focuses on **subjective memory complaints (SMC)**, an early and clinically important stage that has received limited attention in previous AD studies.
+
+- **🔄 Unified clinical pipeline:** DT-SMF jointly supports early cognitive state diagnosis and MCI-to-AD progression prediction within a unified framework.
+
+- **🔍 Interpretable prediction:** Plasma biomarker correlation and brain-region visualization demonstrate the biological plausibility of model predictions.
+
+- **💻 Open-source release:** We provide source code and implementation details to support reproducibility and further research.
+
 ---
 
 ## 🧠 Interpretability
