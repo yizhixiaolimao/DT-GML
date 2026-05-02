@@ -19,11 +19,11 @@ To further enhance diagnostic accuracy and strengthen the effectiveness of inter
 ## 🧠 Interpretability
 
 <p align="center">
-  <img src="img/interpre.png" alt="Model interpretability visualization" width="1000"/>
+  <img src="img/brain.png" alt="Model interpretability visualization of key brain regions" width="1000"/>
 </p>
 
 <p align="center">
-  <em>Example: Occlusion Sensitivity heatmap showing the key brain regions the model focuses on in MRI / PET.</em>
+  <img src="img/linear.png" alt="Model interpretability visualization of correlations with plasma biomarkers" width="1000"/>
 </p>
 
 ---
