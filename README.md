@@ -137,6 +137,98 @@ python main.py
   The best results are shown in <b>bold</b>, and the second-best results are <u>underlined</u>.
 </p>
 
+<h2 style="color:blue;">Ablation Study</h2>
+
+<p>
+  Overall ablation study results of DT-SMF on ADNI.
+  The best results are shown in <b>bold</b>, and the second-best results are <u>underlined</u>.
+</p>
+
+<table>
+  <tr>
+    <th rowspan="2">Models</th>
+    <th colspan="6" style="text-align:center;">Overall Evaluation Metrics</th>
+  </tr>
+  <tr>
+    <th>Acc ↑</th>
+    <th>F1 ↑</th>
+    <th>Sen ↑</th>
+    <th>Prec ↑</th>
+    <th>MCC ↑</th>
+    <th>Kappa ↑</th>
+  </tr>
+
+  <tr>
+    <td>w/o TAB</td>
+    <td>56.49 ± 9.33</td>
+    <td>55.33 ± 9.79</td>
+    <td>50.19 ± 29.76</td>
+    <td>53.70 ± 12.46</td>
+    <td>34.63 ± 15.49</td>
+    <td>33.00 ± 14.74</td>
+  </tr>
+
+  <tr>
+    <td>w/o MRI</td>
+    <td>50.27 ± 7.49</td>
+    <td>46.76 ± 10.68</td>
+    <td>23.75 ± 32.56</td>
+    <td>40.79 ± 15.79</td>
+    <td>28.49 ± 8.67</td>
+    <td>20.67 ± 14.86</td>
+  </tr>
+
+  <tr>
+    <td>Baseline</td>
+    <td>52.43 ± 5.60</td>
+    <td>50.66 ± 5.72</td>
+    <td>60.46 ± 10.64</td>
+    <td>49.42 ± 7.61</td>
+    <td>29.65 ± 8.23</td>
+    <td>26.37 ± 8.44</td>
+  </tr>
+
+  <tr>
+    <td>w/o Sim-Guide</td>
+    <td>78.65 ± 1.76</td>
+    <td>76.58 ± 2.22</td>
+    <td>79.50 ± 2.42</td>
+    <td>76.58 ± 2.16</td>
+    <td>68.19 ± 2.81</td>
+    <td>67.12 ± 2.72</td>
+  </tr>
+
+  <tr>
+    <td>w/o DyT</td>
+    <td><u>79.46 ± 2.22</u></td>
+    <td><u>77.51 ± 2.24</u></td>
+    <td><u>81.27 ± 3.47</u></td>
+    <td><u>78.09 ± 2.29</u></td>
+    <td><u>69.47 ± 3.57</u></td>
+    <td><u>68.38 ± 3.41</u></td>
+  </tr>
+
+  <tr>
+    <td>w/o KT</td>
+    <td>77.57 ± 2.05</td>
+    <td>76.79 ± 2.87</td>
+    <td>78.96 ± 3.48</td>
+    <td>76.50 ± 2.12</td>
+    <td>66.96 ± 3.82</td>
+    <td>65.87 ± 3.25</td>
+  </tr>
+
+  <tr>
+    <td><b>Ours</b></td>
+    <td><b>84.86 ± 2.76</b></td>
+    <td><b>83.46 ± 3.29</b></td>
+    <td><b>85.29 ± 2.00</b></td>
+    <td><b>84.07 ± 3.52</b></td>
+    <td><b>77.38 ± 4.12</b></td>
+    <td><b>76.77 ± 4.24</b></td>
+  </tr>
+</table>
+
 <h2 style="color:blue;">Progression Prediction</h2>
 
 <p>
@@ -208,6 +300,7 @@ python main.py
     <td><b>87.60</b></td>
   </tr>
 </table>
+
 
 ## Citation
 
