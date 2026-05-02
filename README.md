@@ -32,6 +32,29 @@
   <img src="img/linear.png" alt="Model interpretability visualization of correlations with plasma biomarkers" width="1000"/>
 </p>
 
+
+---
+## 🤖 Proposed Method
+
+<h3>Diagnostic Model</h3>
+
+<p>
+The diagnostic model jointly leverages MRI and tabular clinical information for early Alzheimer's disease assisted diagnosis. It introduces an early cross modal knowledge transfer mechanism and a similarity guided dynamic modulation strategy to enhance multimodal feature interaction and improve classification stability across CN, SMC, and MCI stages.
+</p>
+
+<p align="center">
+  <img src="img/model1.png" alt="Overview of the diagnostic model" width="1000"/>
+</p>
+
+<h3>Progression Prediction Model</h3>
+
+<p>
+The progression prediction model estimates disease conversion risk by integrating MRI representations with clinical variables. A Transformer based multimodal modeling framework is combined with prototype learning to reduce ambiguous class boundaries and improve the generalization of short term progression prediction.
+</p>
+
+<p align="center">
+  <img src="img/model3.png" alt="Overview of the progression prediction model" width="1000"/>
+</p>
 ---
 
 ## 📦 Environment
