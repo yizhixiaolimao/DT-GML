@@ -19,7 +19,7 @@
 
 - **💻 Open-source release:** We provide source code and implementation details to support reproducibility and further research.
 <p align="center">
-  <img src="img/overview.png" alt="Model Structure" width="1000"/>
+  <img src="img/exp.png" alt="Model Structure" width="1000"/>
 </p>
 ---
 
