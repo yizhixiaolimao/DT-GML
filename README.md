@@ -34,6 +34,7 @@
 
 
 ---
+
 ## 🤖 Proposed Method
 
 <h3>Diagnostic Model</h3>
