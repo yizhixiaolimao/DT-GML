@@ -18,7 +18,9 @@
 - **🔍 Interpretable prediction:** Plasma biomarker correlation and brain-region visualization demonstrate the biological plausibility of model predictions.
 
 - **💻 Open-source release:** We provide source code and implementation details to support reproducibility and further research.
-
+<p align="center">
+  <img src="img/overview.png" alt="Model Structure" width="1000"/>
+</p>
 ---
 
 ## 🧠 Interpretability
