@@ -13,7 +13,7 @@
 
 - **🩺 SMC-oriented diagnosis:** DT-SMF focuses on **subjective memory complaints (SMC)**, an early and clinically important stage that has received limited attention in previous AD studies.
 
-- **🔄 Unified clinical pipeline:** DT-SMF jointly supports early cognitive state diagnosis and MCI-to-AD progression prediction within a unified framework.
+- **🔄 Two-stage clinical pipeline:** DT-SMF jointly supports early cognitive state diagnosis and MCI-to-AD progression prediction within a unified framework.
 
 - **🔍 Interpretable prediction:** Plasma biomarker correlation and brain-region visualization demonstrate the biological plausibility of model predictions.
 
